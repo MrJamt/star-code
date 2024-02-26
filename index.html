@@ -6,9 +6,25 @@
   <title>Sitio de Enseñanza de Programación</title>
   <!-- Enlace a Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css"> <!-- Agregamos el archivo CSS externo -->
+  <!-- Enlace a la fuente Google Fonts - Montserrat -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+  <style>
+    .crema-fondo {
+      background-color: #ebeae1; /* Color crema suave para el fondo */
+      font-family: 'Montserrat', sans-serif; /* Aplicamos la fuente Montserrat */
+    }
+
+    .borde-negro {
+      border: 1px solid #000; /* Borde negro delgado */
+    }
+
+    h2, h3, h4, h5, h6 {
+      font-weight: bold; /* Hacemos que todos los títulos sean negrita */
+    }
+  </style>
 </head>
-<body>
+<body class="crema-fondo"> <!-- Agregamos una clase para el fondo de crema -->
 
   <!-- Barra de Navegación -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -41,57 +57,46 @@
         <div class="ad-container text-center">
           <h4>Anuncios</h4>
           <p>¡Descuentos exclusivos en cursos premium!</p>
-          <img src="anuncio1.jpg" alt="Anuncio" class="img-fluid">
-          <img src="anuncio2.jpg" alt="Anuncio 2" class="img-fluid">
+          <img src="anuncio1.jpg" alt="Anuncio" class="img-fluid borde-negro"> <!-- Agregamos la clase borde-negro -->
+          <img src="anuncio2.jpg" alt="Anuncio 2" class="img-fluid borde-negro"> <!-- Agregamos la clase borde-negro -->
           <p>Contáctanos para más información.</p>
         </div>
       </div>
 
-  <div class="col-md-9">
-  <!-- Inicio (Home) -->
-  <section id="inicio" class="container mt-5">
-    <h2>Bienvenido a STAR CODE nuestro Sitio de Enseñanza de Programación</h2>
-    
-    <!-- Presentación de Lenguajes -->
-    <div class="row mt-4">
-      <div class="col-md-4">
-        <img src="python.jpg" alt="Python" class="img-fluid mb-3">
-        <h3>Python</h3>
-        <p>Descubre el poder y la versatilidad de Python, desde la programación de scripts hasta el desarrollo web.</p>
-        <a href="#python" class="btn btn-primary">Explorar Python</a>
-      </div>
-      <div class="col-md-4">
-        <img src="javascript.jpg" alt="JavaScript" class="img-fluid mb-3">
-        <h3>JavaScript</h3>
-        <p>Aprende el lenguaje esencial para el desarrollo web, desde la manipulación del DOM hasta la creación de aplicaciones interactivas.</p>
-        <a href="#javascript" class="btn btn-primary">Explorar JavaScript</a>
-      </div>
-      <div class="col-md-4">
-        <img src="cpp.png" alt="C++" class="img-fluid mb-3">
-        <h3>C++</h3>
-        <p>Sumérgete en la programación de alto rendimiento con C++, desde la programación de sistemas hasta la creación de videojuegos.</p>
-        <!-- Dejé este enlace libre para que lo personalices -->
-        <a href="#cpp" class="btn btn-primary">Explorar C++</a>
-      </div>
-    </div>
+      <div class="col-md-9">
+        <!-- Inicio (Home) -->
+        <section id="inicio" class="container mt-5">
+          <h2>Bienvenido a STAR CODE nuestro Sitio de Enseñanza de Programación</h2>
 
-    <!-- Cursos Destacados -->
-    <div class="row mt-4">
-      <div class="col-md-12">
-        <h2>Cursos Destacados</h2>
-        <p>Descubre nuestros cursos destacados para cada lenguaje y comienza tu viaje de aprendizaje.</p>
-        <!-- Aquí puedes agregar información sobre cursos destacados y botones de inscripción -->
-      </div>
-    </div>
+          <!-- Presentación de Lenguajes -->
+          <div class="row mt-4">
+            <div class="col-md-4">
+              <!-- Contenido de Python -->
+            </div>
+            <div class="col-md-4">
+              <!-- Contenido de JavaScript -->
+            </div>
+            <div class="col-md-4">
+              <!-- Contenido de C++ -->
+            </div>
+          </div>
 
-    <!-- Llamada a la Acción Principal -->
-    <div class="row mt-4">
-      <div class="col-md-12 text-center">
-        <a href="#cursos" class="btn btn-lg btn-primary">Comenzar Ahora</a>
-      </div>
-    </div>
+          <!-- Cursos Destacados -->
+          <div class="row mt-4">
+            <div class="col-md-12">
+              <h2>Cursos Destacados</h2>
+              <!-- Contenido de cursos destacados -->
+            </div>
+          </div>
 
-  </section>
+          <!-- Llamada a la Acción Principal -->
+          <div class="row mt-4">
+            <div class="col-md-12 text-center">
+              <a href="#cursos" class="btn btn-lg btn-primary">Comenzar Ahora</a>
+            </div>
+          </div>
+
+        </section>
 
   <!-- Lenguajes de Programación -->
   <section id="lenguajes" class="container mt-5">
