@@ -1,0 +1,63 @@
+/* Estilos Generales */
+body {
+    background-color: #f8f9fa; /* Fondo gris claro */
+}
+
+h2, h3 {
+    color: #3498db; /* Azul brillante para títulos */
+}
+
+p {
+    color: #555; /* Texto gris oscuro */
+}
+
+/* Estilo de la Barra de Navegación */
+.navbar {
+    background-color: #343a40; /* Fondo gris oscuro */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff !important; /* Texto blanco */
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Ícono del botón blanco */
+}
+
+/* Estilo de las Secciones */
+section {
+    margin-top: 40px;
+}
+
+/* Estilo de los Botones */
+.btn-primary {
+    background-color: #28a745 !important; /* Verde para botones primarios */
+    border-color: #28a745 !important;
+}
+
+.btn-primary:hover {
+    background-color: #218838 !important; /* Verde oscuro al pasar el mouse */
+    border-color: #218838 !important;
+}
+
+/* Estilo para las Tarjetas de Noticias */
+.card {
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.card-title {
+    color: #333; /* Texto negro para títulos de tarjetas */
+}
+
+.card-text {
+    color: #555; /* Texto gris oscuro para contenido de tarjetas */
+}
+
+/* Estilo para el Footer */
+footer {
+    background-color: #343a40; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 15px 0;
+}
